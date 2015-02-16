@@ -27,7 +27,7 @@ This is a tutorial on Eclipse, an integrated development environment that you ma
 
 ####Eclipse 
 
-– One of the most widely used IDEs for Java and also the IDE that we will be supporting for 1004
+- One of the most widely used IDEs for Java and also the IDE that we will be supporting for 1004
 - Also allows for installation of plugins that add extra features and support for a large variety of other programming languages 
 
 ####IDE (Integrated Development Environment) 
@@ -36,11 +36,11 @@ This is a tutorial on Eclipse, an integrated development environment that you ma
 
 ####Code Editor
 
-– A specialized text editor that usually provides syntax highlighting, auto-complete, auto-formatting, etc.
+- A specialized text editor that usually provides syntax highlighting, auto-complete, auto-formatting, etc.
 
 ####Compiler
 
-– A program that transforms source code of one programming language into a different target language (often a language that can be executed directly by computers
+- A program that transforms source code of one programming language into a different target language (often a language that can be executed directly by computers
 - Example: javac ("Java Compiler") transforms Java source code into bytecode
 
 ####Debugger 
@@ -49,7 +49,11 @@ This is a tutorial on Eclipse, an integrated development environment that you ma
 
 ####GUI (Graphical User Interface) 
 
-– A visual interface that allows a user to interact with computers through graphics and visual elements rather than simple commands and text input/output
+- A visual interface that allows a user to interact with computers through graphics and visual elements rather than simple commands and text input/output
+
+####Workspace 
+
+- In context of Eclipse, the workspace is the directory on your computer where all of the Java projects you create and programs/code you writethrough Eclipse will be stored. 
 
 ------
 
@@ -57,16 +61,15 @@ This is a tutorial on Eclipse, an integrated development environment that you ma
 
 ###Download/Installation:
 
-- Download Eclipse Luna from the website: http://www.eclipse.org/downloads/
-- The first link will be the most recent, most common version
-- Be sure to download the right version for your operating system (Mac, Linux, Windows; 32-bit or 64-bit)
+- Download Eclipse Luna from the website: http://www.eclipse.org/downloads/ (Eclipse Luna SR1a 4.4.1 at time of writing this tutorial)
+- Be sure to download the right type (Eclipse IDE for Java Developers) and right version for your operating system (Mac, Linux, Windows; 32-bit or 64-bit)
 - To determine whether your system is 32 bit or 64 bit refer to the following instructions/site for Mac and Linux (http://www.howtogeek.com/198615/how-to-check-if-your-linux-system-is-32-bit-or-64-bit/) and the following for Windows (http://support.microsoft.com/kb/827218?wa=wsignin1.0)
 - Unzip the downloaded file and open and run the installation program/executable
 - For Mac OSes, move the unzipped eclipse directory into the Applications directory and then run the Eclipse executable in that directory to run Eclipse
 
 ###Initial Setup:
 
-- Whenever you run Eclipse, you will be asked to select a workspace. This workspace is the directory on your computer where all of the projects you create and programs/code you write will be stored. Check the option to "Use this as the default and do not ask again" to only have to select your workspace on the first run.
+- Whenever you run Eclipse, you will be asked to select a workspace. Check the option to "Use this as the default and do not ask again" to only have to select your workspace on the first run.
 - Feel free to explore around with the intro options or select "Workbench" in the top right corner to go to the usual Eclipse interface where you'd write, test, and run your Java programs.
 
 ####Some Potential Setup Issues:
@@ -84,13 +87,13 @@ No JDK (Java Development Kit):
 
 ###View Panels:
 
-The Eclipse interface has many panels that you can close or open and that each provide some functionality, information, or view. You can drag around and move panels anywhere in the interface. A few notable ones:
+The Eclipse interface has many view panels that you can close or open and that each provide some functionality, information, or view. You can drag around and move panels anywhere in the interface. A few notable ones:
 
-- Package Explorer = displays your Eclipse imported/integrated projects and allows you to expand, open, and perform operations on the directories and program/code file contents of these projects 
-- Console = displays the output from running your Java programs (Ex. output of System.out.println() calls), also displays runtime errors/exceptions
-- Javadoc = displays formal Javadoc (a specific style/standard for documenting Java code/programs) for the current class or package 
-- Problems = displays syntax or compilation errors that need to be fixed  
-- Outline = displays a quick listing of the current project's Java classes and their method names/calling signatures and parameters 
+- Package Explorer: displays your Eclipse imported/integrated projects and allows you to expand, open, and perform operations on the directories and program/code file contents of these projects 
+- Console: displays the output from running your Java programs (Ex. output of System.out.println() calls), also displays runtime errors/exceptions
+- Javadoc: displays formal Javadoc (a specific style/standard for documenting Java code/programs) for the current class or package 
+- Problems: displays syntax or compilation errors that need to be fixed  
+- Outline: displays a quick listing of the current project's Java classes and their method names/calling signatures and parameters 
 
 To open any view panels that you've closed or open new view panels, look for the view panels you want to open in (Menu) Window --> Show View --> View Panel you want to open.
 
@@ -177,8 +180,8 @@ Submit your first assignment:
 
 ###More Resources/Documentation:
 
-<a href="http://www.eclipse.org/documentation">Official Eclipse Documentation</a>
+- <a href="http://www.eclipse.org/documentation">Official Eclipse Documentation</a>
 
-<a href="http://marketplace.eclipse.org/">Eclipse Plugins</a>
+- <a href="http://marketplace.eclipse.org/">Eclipse Plugins</a>
 
-<a href="http://www.vogella.com/tutorials/Eclipse/article.html">Vogella Eclipse Tutorial (lots of screenshots)</a>
+- <a href="http://www.vogella.com/tutorials/Eclipse/article.html">Vogella Eclipse Tutorial (lots of screenshots)</a>
