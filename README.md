@@ -9,10 +9,9 @@ This is a tutorial on Eclipse, an integrated development environment that you ma
 
 ###Table of Contents
 
-- [Terms/Definitions](#terms)
+- [Terms and Definitions](#terms)
 - [Installation](#installation)
-- [CUNIX](#cunix)
-- [Projects](#projects)
+- [Creating Projects/Programs](#projects)
 - [Running Programs](#run)
 - [Importing Files](#import)
 - [Submitting Assignments](#submission)
@@ -23,7 +22,7 @@ This is a tutorial on Eclipse, an integrated development environment that you ma
 
 <a name="terms"></a>
 
-###Term Definitions:
+###Terms and Definitions:
 
 ####Eclipse 
 
@@ -53,14 +52,14 @@ This is a tutorial on Eclipse, an integrated development environment that you ma
 
 <a name="Installation"></a>
 
-###Download:
+###Installation:
 
 - Download Eclipse Luna from the website: http://www.eclipse.org/downloads/
 - The first link will be the most recent, most common version
 - Be sure to download the right version for your operating system (Mac, Linux, Windows; 32-bit or 64-bit)
 - Unzip downloaded file and open/run
 
-###Some Potential Issues:
+####Some Potential Issues:
 - No JDK (Java Development Kit)
 - Download JDK from http://www.oracle.com/technetwork/java/javase/downloads/index.html
 - Follow step by step instructions http://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html
