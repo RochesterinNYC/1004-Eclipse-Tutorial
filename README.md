@@ -3,7 +3,7 @@
 ####1004 - Intro to Computer Science and Programming in Java
 -------
 
-This is a tutorial on Eclipse, an integrated development environment that you may choose to use in writing and running your Java projects and programs.
+This is a tutorial on Eclipse, an integrated development environment that you may choose to use in writing and running your Java projects and programs. Written by Hyonjee Joo. Modified by James Wen.
 
 -------
 
@@ -13,7 +13,7 @@ This is a tutorial on Eclipse, an integrated development environment that you ma
 - [Installation](#installation)
 - [CUNIX](#cunix)
 - [Projects](#projects)
-- [Running Programs(#run)
+- [Running Programs](#run)
 - [Importing Files](#import)
 - [Submitting Assignments](#submission)
 - [Other Notes](#other)
@@ -26,21 +26,27 @@ This is a tutorial on Eclipse, an integrated development environment that you ma
 ###Term Definitions:
 
 ####Eclipse 
+
 – one of the most widely used IDEs for Java, and also the IDE that we will be supporting for this course
 
 ####IDE (Integrated Development Environment) 
+
 - a computer program that helps us code by providing a friendly environment and useful programming tools
 
 ####Code Editor
+
 – editor with syntax highlighting, autocomplete, formatting
 
 ####Compiler
+
 – turns source code (code that humans can write and understand) into executables (code that computers can run), e.g. javac (“Java Compiler”)
 
 ####Debugger 
+
 – tools that helps programmers find errors in their code
 
 ####GUI (Graphical User Interface) 
+
 – a way of interacting with computers that involves graphics; anything beyond command line interface
 
 ------
@@ -112,7 +118,7 @@ Submit your first assignment:
 
 1.  Open your terminal or Finder (Linux, Mac) or Window's Explorer (Windows)
 2.  Go to your Java Project's src directory
-3.  <PathToYourWorkspace>/<JavaProjectName>/src
+3.  PathToYourWorkspace/JavaProjectName/src
 4.  create new folder with ONLY .java files from src directory
 5.  Compress folder into .zip or .tar.gz file
 6.  Folder should be <uni>_hw#.zip (i.e. az1234_hw1.zip)
