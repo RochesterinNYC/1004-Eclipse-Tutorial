@@ -66,9 +66,13 @@ This is a tutorial on Eclipse, an integrated development environment that you ma
 ![Eclipse Luna](/images/Eclipse-download.png?raw=true "Eclipse Luna Download")
 
 - Be sure to download the right type (Eclipse IDE for Java Developers) and right version for your operating system (Mac, Linux, Windows; 32-bit or 64-bit)
-- To determine whether your system is 32 bit or 64 bit refer to the following instructions/site for Mac and Linux (http://www.howtogeek.com/198615/how-to-check-if-your-linux-system-is-32-bit-or-64-bit/) and the following for Windows (http://support.microsoft.com/kb/827218?wa=wsignin1.0)
+- To determine whether your system is 32 bit or 64 bit refer to the following instructions/site for your OS:
+
+Linux/Mac: http://www.howtogeek.com/198615/how-to-check-if-your-linux-system-is-32-bit-or-64-bit/ 
 
 ![Linux/Mac Check](/images/Eclipse-linux-mac-system-check.png?raw=true "Linux/Mac Check")
+
+Windows: http://support.microsoft.com/kb/827218
 
 ![Windows Check](/images/Eclipse-windows-system-check.png?raw=true "Windows Check")
 
@@ -140,10 +144,10 @@ To open any view panels that you've closed or open new view panels, look for the
 
 ###Creating Projects and Classes:
 
-####Creating a New Project:
+####Creating a New Java Project:
 
-- A project should be a single, self-contained collection of one or multiple Java files that work together for some functionality (one project for each assignment). 
-- To Create: (Menu) File --> New --> Java Project or Right-click in the Package Explorer, Package Explorer, or Navigator --> New --> Java Project
+- A Java project should be a single, self-contained collection of one or multiple Java files that work together for some functionality (one project for each assignment). 
+- To Create: (Menu) File --> New --> Java Project or Right-click in the Package Explorer, Package Explorer, or Navigator --> New --> Project --> Java --> Java Project
 
 ![New Project](/images/Eclipse-new-project.png?raw=true "New Project")
 
@@ -184,10 +188,17 @@ Once you have written your program, you can run them. Running the program in Ecl
 ####Importing Courseworks code projects/files into your Eclipse Java Projects:
 
 - Download the Java files from Courseworks. You can save these anywhere (does not have to be saved in your Eclipse workspace directory)
-- Right-click on your Java Project in the Package Explorer --> Import --> General --> File System --> Next --> Browse and select the directory that contains the Courseworks Java files 
+- Right-click on your src folder in your Java Project in the Project Explorer --> Import --> General --> File System --> Next --> Browse and select the directory that contains the Courseworks Java files 
+
+![Import Menu](/images/Eclipse-import-menu.png?raw=true "Import Menu")
 
 - Select the specific files you want to import.
+
+![Import File](/images/Eclipse-import-file.png?raw=true "Import File")
+
 - Click Finish and those specified files will be imported and integrated into the selected Project.
+
+![Import Result](/images/Eclipse-import-result.png?raw=true "Import Result")
 
 ------
 
@@ -207,7 +218,7 @@ Submit your first assignment:
         ~/Programming/Java/MathCalculator/src 
 
 - Create a new folder anywhere and copy into it ONLY the .java files from the src directory of your Project
-- Compress the folder into a .zip or .tar.gz file.
+- Compress the folder into a .zip or .tar.gz file. (Linux/Mac: http://www.cyberciti.biz/faq/how-do-i-compress-a-whole-linux-or-unix-directory/ and Windows: http://windows.microsoft.com/en-us/windows/compress-uncompress-files-zip-files)
 - Resulting file should be called: uni_hw#.zip (ex. az1234_hw1.zip or az1234_hw1.tar.gz)
 - Upload that .zip or .tar.gz file to Courseworks.
 
