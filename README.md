@@ -62,6 +62,9 @@ This is a tutorial on Eclipse, an integrated development environment that you ma
 ###Download/Installation:
 
 - Download Eclipse Luna from the website: http://www.eclipse.org/downloads/ (Eclipse Luna SR1a 4.4.1 at time of writing this tutorial)
+
+![Eclipse Luna](/images/Eclipse-download.png?raw=true "Eclipse Luna Download")
+
 - Be sure to download the right type (Eclipse IDE for Java Developers) and right version for your operating system (Mac, Linux, Windows; 32-bit or 64-bit)
 - To determine whether your system is 32 bit or 64 bit refer to the following instructions/site for Mac and Linux (http://www.howtogeek.com/198615/how-to-check-if-your-linux-system-is-32-bit-or-64-bit/) and the following for Windows (http://support.microsoft.com/kb/827218?wa=wsignin1.0)
 - Unzip the downloaded file and open and run the installation program/executable
@@ -90,7 +93,9 @@ No JDK (Java Development Kit):
 The Eclipse interface has many view panels that you can close or open and that each provide some functionality, information, or view. You can drag around and move panels anywhere in the interface. A few notable ones:
 
 - Package Explorer: displays your Eclipse imported/integrated projects and allows you to expand, open, and perform operations on the directories and program/code file contents of these projects 
-- Console: displays the output from running your Java programs (Ex. output of System.out.println() calls), also displays runtime errors/exceptions
+- Project Explorer: similar to the package explorer but may display additional information and options as extra plugins and tools are integrated/used 
+- Naivgator: displays your projects in context of the file system layout and structure 
+- Console: displays the output from running your Java programs (Ex. output of System.out.println() calls), also displays runtime errors/exceptions. Useful to know that clicking the red square (Terminate) in this panel will stop execution of your program (in the instance of long-running programs or infinite loops or etc.)
 - Javadoc: displays formal Javadoc (a specific style/standard for documenting Java code/programs) for the current class or package 
 - Problems: displays syntax or compilation errors that need to be fixed  
 - Outline: displays a quick listing of the current project's Java classes and their method names/calling signatures and parameters 
@@ -106,13 +111,13 @@ To open any view panels that you've closed or open new view panels, look for the
 ####Creating a New Project:
 
 - A project should be a single, self-contained collection of one or multiple Java files that work together for some functionality (one project for each assignment). 
-- To Create: (Menu) File --> New --> Java Project or Right-click in the Package Explorer view panel --> New --> Java Project
+- To Create: (Menu) File --> New --> Java Project or Right-click in the Package Explorer, Package Explorer, or Navigator --> New --> Java Project
 - Name your project accordingly and select Finish.
 - Your new project and directory will be created. Each project has a src (stands for source) folder where your code (Java files) will go. 
 
 ####Creating a New Java Class/File:
 
-- To Create: (Menu) File --> New --> Java Class (the new Java class will be created for whichever project is currently highlighted/selected in the Package Explorer) or Right-click a Java Project in the Package Explorer --> New --> Java Class
+- To Create: (Menu) File --> New --> Java Class (the new Java class will be created for whichever project is currently highlighted/selected in the Package Explorer) or Right-click a Java Project in the Package Explorer, Project Explorer, or Navigator --> New --> Java Class
 - Give your class an appropriate name in camelCase formatting (ex. HelloWorld, ProcessRunner2, etc.). Keep the default settings. Select Finish.
 - Your new Java class and file will be created.
 
@@ -125,7 +130,8 @@ To open any view panels that you've closed or open new view panels, look for the
 Once you have written your program, you can run them. Running the program in Eclipse performs both compilation and execution of the program (ex. like running javac HelloWorld.java and java HelloWorld sequentially).
 
 - To Run: (Menu) Run --> Run or click the green play button in the toolbar
-- To run your program with specific command line arguments (ex. want to run command-line equivalent of java CalculateBalance 2000), specify the program arguments in (Menu) Run --> Run Configurations --> Arguments --> Program arguments (fill in arguments, separated by spaces, ex. 2000)
+- If it asks you to specify which to run, select "Java Application"
+- To run your program with specific command line arguments (ex. want to run command-line equivalent of java TestRunner 2000), specify the program arguments in (Menu) Run --> Run Configurations --> Arguments --> Program arguments (fill in arguments, separated by spaces, ex. 2000)
 
 ------
 
@@ -160,6 +166,7 @@ Submit your first assignment:
 - Create a new folder anywhere and copy into it ONLY the .java files from the src directory of your Project
 - Compress the folder into a .zip or .tar.gz file.
 - Resulting file should be called: uni_hw#.zip (ex. az1234_hw1.zip or az1234_hw1.tar.gz)
+- Upload that .zip or .tar.gz file to Courseworks.
 
 ------
 
