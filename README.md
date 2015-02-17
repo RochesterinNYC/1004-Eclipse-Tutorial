@@ -100,6 +100,10 @@ No JDK (Java Development Kit):
 - Download JDK from http://www.oracle.com/technetwork/java/javase/downloads/index.html
 - Follow step by step instructions http://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html
 
+Wrong JRE loaded (Classes cannot be found):
+- The main indicator for this problem is that the classes for your Java Projects cannot be loaded. This manifests in error messages that say something along the lines of "Could not find or load main class" or "Could not find or load \_\_\_ class".
+- The following might help a bit (http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Ftasks%2Ftask-choose_config_jre.htm) but the recommended course of action is to reach out to TA through email/Piazza or attend a TA's office hours and bring the issue up. 
+
 ------
 
 <a name="panels"></a>
@@ -112,7 +116,7 @@ The Eclipse interface has many view panels that you can close or open and that e
 
 ![Package Explorer Panel](/images/Eclipse-package-explorer-panel.png?raw=true "Package Explorer Panel")
 
-- Project Explorer: similar to the package explorer but may display additional information and options as extra plugins and tools are integrated/used (**recommended as the best explorer view for Java development**) 
+- Project Explorer: similar to the package explorer but may display additional information and options as extra plugins and tools are integrated/used
 
 ![Project Explorer Panel](/images/Eclipse-project-explorer-panel.png?raw=true "Project Explorer Panel")
 
@@ -188,7 +192,7 @@ Once you have written your program, you can run them. Running the program in Ecl
 ####Importing Courseworks code projects/files into your Eclipse Java Projects:
 
 - Download the Java files from Courseworks. You can save these anywhere (does not have to be saved in your Eclipse workspace directory)
-- Right-click on your src folder in your Java Project in the Project Explorer --> Import --> General --> File System --> Next --> Browse and select the directory that contains the Courseworks Java files 
+- Right-click on the Java Project in the Project Explorer --> Import --> General --> File System --> Next --> Browse and select the directory that contains the Courseworks Java files 
 
 ![Import Menu](/images/Eclipse-import-menu.png?raw=true "Import Menu")
 
@@ -220,7 +224,7 @@ Submit your first assignment:
 - Create a new folder anywhere and copy into it ONLY the .java files from the src directory of your Project
 - Compress the folder into a .zip or .tar.gz file. (Linux/Mac: http://www.cyberciti.biz/faq/how-do-i-compress-a-whole-linux-or-unix-directory/ and Windows: http://windows.microsoft.com/en-us/windows/compress-uncompress-files-zip-files)
 - Resulting file should be called: uni_hw#.zip (ex. az1234_hw1.zip or az1234_hw1.tar.gz)
-- Upload that .zip or .tar.gz file to Courseworks.
+- Upload that .zip or .tar.gz file to the appropriate Assignment on Courseworks.
 
 ------
 
