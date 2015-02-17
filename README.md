@@ -3,7 +3,7 @@
 ####1004 - Intro to Computer Science and Programming in Java
 -------
 
-This is a tutorial on Eclipse, an integrated development environment that you may choose to use in writing and running your Java projects and programs. Written by Hyonjee Joo. Modified by James Wen.
+This is a tutorial on Eclipse, an integrated development environment that you may choose to use in writing and running your Java projects and programs. Written by James Wen and Hyonjee Joo.
 
 -------
 
@@ -67,13 +67,25 @@ This is a tutorial on Eclipse, an integrated development environment that you ma
 
 - Be sure to download the right type (Eclipse IDE for Java Developers) and right version for your operating system (Mac, Linux, Windows; 32-bit or 64-bit)
 - To determine whether your system is 32 bit or 64 bit refer to the following instructions/site for Mac and Linux (http://www.howtogeek.com/198615/how-to-check-if-your-linux-system-is-32-bit-or-64-bit/) and the following for Windows (http://support.microsoft.com/kb/827218?wa=wsignin1.0)
+
+![Linux/Mac Check](/images/Eclipse-linux-mac-system-check.png?raw=true "Linux/Mac Check")
+
+![Windows Check](/images/Eclipse-windows-system-check.png?raw=true "Windows Check")
+
 - Unzip the downloaded file and open and run the installation program/executable
 - For Mac OSes, move the unzipped eclipse directory into the Applications directory and then run the Eclipse executable in that directory to run Eclipse
+
+![Eclipse in Mac Applications](/images/Eclipse-mac-applications.png?raw=true "Eclipse in Mac Applications")
 
 ###Initial Setup:
 
 - Whenever you run Eclipse, you will be asked to select a workspace. Check the option to "Use this as the default and do not ask again" to only have to select your workspace on the first run.
+
+![Workspace Creation](/images/Eclipse-workspace-selection.png?raw=true "Workspace Creation")
+
 - Feel free to explore around with the intro options or select "Workbench" in the top right corner to go to the usual Eclipse interface where you'd write, test, and run your Java programs.
+
+![Welcome](/images/Eclipse-welcome.png?raw=true "Welcome Page")
 
 ####Some Potential Setup Issues:
 
@@ -93,12 +105,32 @@ No JDK (Java Development Kit):
 The Eclipse interface has many view panels that you can close or open and that each provide some functionality, information, or view. You can drag around and move panels anywhere in the interface. A few notable ones:
 
 - Package Explorer: displays your Eclipse imported/integrated projects and allows you to expand, open, and perform operations on the directories and program/code file contents of these projects 
-- Project Explorer: similar to the package explorer but may display additional information and options as extra plugins and tools are integrated/used 
-- Naivgator: displays your projects in context of the file system layout and structure 
+
+![Package Explorer Panel](/images/Eclipse-package-explorer-panel.png?raw=true "Package Explorer Panel")
+
+- Project Explorer: similar to the package explorer but may display additional information and options as extra plugins and tools are integrated/used (**recommended as the best explorer view for Java development**) 
+
+![Project Explorer Panel](/images/Eclipse-project-explorer-panel.png?raw=true "Project Explorer Panel")
+
+- Navigator: displays your projects in context of the file system layout and structure 
+
+![Navigator Panel](/images/Eclipse-navigator-panel.png?raw=true "Navigator Panel")
+
 - Console: displays the output from running your Java programs (Ex. output of System.out.println() calls), also displays runtime errors/exceptions. Useful to know that clicking the red square (Terminate) in this panel will stop execution of your program (in the instance of long-running programs or infinite loops or etc.)
+
+![Console Panel](/images/Eclipse-console-panel.png?raw=true "Console Panel")
+
 - Javadoc: displays formal Javadoc (a specific style/standard for documenting Java code/programs) for the current class or package 
+
+![Javadoc Panel](/images/Eclipse-javadoc-panel.png?raw=true "Javadoc Panel")
+
 - Problems: displays syntax or compilation errors that need to be fixed  
+
+![Problems Panel](/images/Eclipse-problems-panel.png?raw=true "Problems Panel")
+
 - Outline: displays a quick listing of the current project's Java classes and their method names/calling signatures and parameters 
+
+![Outline Panel](/images/Eclipse-outline-panel.png?raw=true "Outline Panel")
 
 To open any view panels that you've closed or open new view panels, look for the view panels you want to open in (Menu) Window --> Show View --> View Panel you want to open.
 
@@ -112,14 +144,22 @@ To open any view panels that you've closed or open new view panels, look for the
 
 - A project should be a single, self-contained collection of one or multiple Java files that work together for some functionality (one project for each assignment). 
 - To Create: (Menu) File --> New --> Java Project or Right-click in the Package Explorer, Package Explorer, or Navigator --> New --> Java Project
+
+![New Project](/images/Eclipse-new-project.png?raw=true "New Project")
+
 - Name your project accordingly and select Finish.
 - Your new project and directory will be created. Each project has a src (stands for source) folder where your code (Java files) will go. 
 
 ####Creating a New Java Class/File:
 
 - To Create: (Menu) File --> New --> Java Class (the new Java class will be created for whichever project is currently highlighted/selected in the Package Explorer) or Right-click a Java Project in the Package Explorer, Project Explorer, or Navigator --> New --> Java Class
+
+![New Class](/images/Eclipse-new-class.png?raw=true "New Class")
+
 - Give your class an appropriate name in camelCase formatting (ex. HelloWorld, ProcessRunner2, etc.). Keep the default settings. Select Finish.
 - Your new Java class and file will be created.
+
+![After Creation](/images/Eclipse-after-creation.png?raw=true "After Creation")
 
 ------
 
@@ -133,16 +173,19 @@ Once you have written your program, you can run them. Running the program in Ecl
 - If it asks you to specify which to run, select "Java Application"
 - To run your program with specific command line arguments (ex. want to run command-line equivalent of java TestRunner 2000), specify the program arguments in (Menu) Run --> Run Configurations --> Arguments --> Program arguments (fill in arguments, separated by spaces, ex. 2000)
 
+![Commandline Arguments](/images/Eclipse-run-arguments.png?raw=true "Commandline Arguments")
+
 ------
 
 <a name="import"></a>
 
-###Importing Files:
+###Importing Projects and Files:
 
-Import Courseworks code into your Java Projects:
+####Importing Courseworks code projects/files into your Eclipse Java Projects:
 
 - Download the Java files from Courseworks. You can save these anywhere (does not have to be saved in your Eclipse workspace directory)
 - Right-click on your Java Project in the Package Explorer --> Import --> General --> File System --> Next --> Browse and select the directory that contains the Courseworks Java files 
+
 - Select the specific files you want to import.
 - Click Finish and those specified files will be imported and integrated into the selected Project.
 
